@@ -9,6 +9,6 @@ def test_stub() -> None:
     assert not False
 
 
-def test_adder():
+def test_adder() -> None:
     """Test the adder function."""
     assert adder(3, 4) == 7  # noqa: PLR2004

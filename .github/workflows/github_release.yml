@@ -16,13 +16,9 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ ubuntu-latest ]
-        python-version: [
-          '3.10',
-          'pypy-3.10',
-        ]
+        os: [ubuntu-latest]
+        python-version: ['3.12']
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -56,7 +52,6 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v4
 

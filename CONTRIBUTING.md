@@ -28,7 +28,7 @@ the following should be enough for 95% of all contributors:
 2. A text editor / Python IDE
 3. An installation of Python that supports Python version 3.10 or higher
 4. The following, non-standard PyPI modules (available through `pip`):
-    - `poetry`
+   - `poetry`
 
-[Issues]: https://github.com/Diapolo10/project-name/issues
-[Projects]: https://github.com/Diapolo10/project-name/projects
+[Issues]: https://github.com/romanzdk/project-name/issues
+[Projects]: https://github.com/romanzdk/project-name/projects
