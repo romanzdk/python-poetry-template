@@ -19,7 +19,7 @@ Before installing the <app>, ensure you have the following software installed on
 Install <app> using poetry:
 
 ```bash
-poetry install --with dev
+poetry install --with
 ```
 
 ## Quick Start
